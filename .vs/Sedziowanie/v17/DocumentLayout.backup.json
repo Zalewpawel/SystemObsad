@@ -3,76 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\mecz\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\mecz\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\meczcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\meczcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\models\\niedyspozycja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:models\\niedyspozycja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\models\\sedzia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:models\\sedzia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\models\\mecz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:models\\mecz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\niedyspozycjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\niedyspozycjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\m.sedziasekretarz)||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:m.sedziasekretarz)||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\m.sedziai)||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:m.sedziai)||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\m.rozgrywki)||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:m.rozgrywki)||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\mecz\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\mecz\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\sedzia\\meczesedziego.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\sedzia\\meczesedziego.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\rozgrywki\\meczerozgrywek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\rozgrywki\\meczerozgrywek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\rozgrywki\\listarozgrywek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\rozgrywki\\listarozgrywek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\rozgrywki\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\rozgrywki\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\niedyspozycja\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\niedyspozycja\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\mecz\\listameczy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\mecz\\listameczy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\mecz\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\mecz\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\sedzia\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\sedzia\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\sedzia\\meczesedziego.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\sedzia\\meczesedziego.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\sedzia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,28 +35,112 @@
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\sedzia\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\rozgrywki\\meczerozgrywek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\rozgrywki\\meczerozgrywek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\rozgrywki\\listarozgrywek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\rozgrywki\\listarozgrywek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\rozgrywki\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\rozgrywki\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\niedyspozycja\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\niedyspozycja\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\niedyspozycja\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\niedyspozycja\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\mecz\\listameczy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\mecz\\listameczy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\mecz\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\mecz\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\mecz\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\mecz\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\mecz\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\mecz\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\models\\rozgrywki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:models\\rozgrywki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\models\\sedzia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:models\\sedzia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\models\\mecz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:models\\mecz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\data\\dbobsadycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:data\\dbobsadycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\services\\interfaces\\imeczservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:services\\interfaces\\imeczservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\services\\rozgrywkiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:services\\rozgrywkiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\services\\sedziaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:services\\sedziaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\niedyspozycjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\niedyspozycjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\services\\meczservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:services\\meczservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\meczcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\meczcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\services\\interfaces\\isedziaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:services\\interfaces\\isedziaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\models\\niedyspozycja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:models\\niedyspozycja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\m.sedziasekretarz)||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:m.sedziasekretarz)||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\rozgrywkicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\rozgrywkicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\m.sedziaii)||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:m.sedziaii)||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\m.sedziai)||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:m.sedziai)||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\migrations\\20241214155819_string.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,24 +151,8 @@
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:migrations\\20241214154108_sedziahaslo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\data\\dbobsadycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:data\\dbobsadycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\sedziacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\sedziacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\models\\rozgrywki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:models\\rozgrywki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\migrations\\20241116114332_listy.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:migrations\\20241116114332_listy.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\migrations\\20241116111501_klasa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,10 +170,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zalew\\source\\repos\\Sedziowanie\\Migrations\\20241116104011_sedziowanie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zalew\\source\\repos\\Sedziowanie\\Migrations\\20241116103525_akt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -168,101 +180,401 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NiedyspozycjaController.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\NiedyspozycjaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NiedyspozycjaController.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\NiedyspozycjaController.cs",
-              "RelativeToolTip": "Controllers\\NiedyspozycjaController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:14:11.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MeczeSedziego.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\MeczeSedziego.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sedzia\\MeczeSedziego.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\MeczeSedziego.cshtml",
-              "RelativeToolTip": "Views\\Sedzia\\MeczeSedziego.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ListaRozgrywek.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\ListaRozgrywek.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rozgrywki\\ListaRozgrywek.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\ListaRozgrywek.cshtml",
+              "RelativeToolTip": "Views\\Rozgrywki\\ListaRozgrywek.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T14:06:31.865Z"
+              "WhenOpened": "2024-11-14T16:47:55.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "MeczeRozgrywek.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\MeczeRozgrywek.cshtml",
               "RelativeDocumentMoniker": "Views\\Rozgrywki\\MeczeRozgrywek.cshtml",
               "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\MeczeRozgrywek.cshtml",
               "RelativeToolTip": "Views\\Rozgrywki\\MeczeRozgrywek.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T15:49:29.257Z"
+              "WhenOpened": "2024-12-14T15:49:29.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sedzia\\Add.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Add.cshtml",
+              "RelativeToolTip": "Views\\Sedzia\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T14:55:41.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sedzia\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Sedzia\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T15:25:09.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sedzia\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Sedzia\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T15:23:31.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MeczeSedziego.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\MeczeSedziego.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sedzia\\MeczeSedziego.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\MeczeSedziego.cshtml",
+              "RelativeToolTip": "Views\\Sedzia\\MeczeSedziego.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T14:06:31.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Show.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sedzia\\Show.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Show.cshtml",
+              "RelativeToolTip": "Views\\Sedzia\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T13:57:29.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:42:55.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MeczController.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\MeczController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MeczController.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\MeczController.cs",
-              "RelativeToolTip": "Controllers\\MeczController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:08:33.184Z",
+              "Title": "m.Rozgrywki)",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.Rozgrywki)",
+              "RelativeDocumentMoniker": "m.Rozgrywki)",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.Rozgrywki)",
+              "RelativeToolTip": "m.Rozgrywki)",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-16T10:11:34.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "m.SedziaI)",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.SedziaI)",
+              "RelativeDocumentMoniker": "m.SedziaI)",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.SedziaI)",
+              "RelativeToolTip": "m.SedziaI)",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-16T10:11:37.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rozgrywki\\Add.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\Add.cshtml",
+              "RelativeToolTip": "Views\\Rozgrywki\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T16:24:02.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\Show.cshtml",
+              "RelativeDocumentMoniker": "Views\\Niedyspozycja\\Show.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\Show.cshtml",
+              "RelativeToolTip": "Views\\Niedyspozycja\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T15:47:42.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Niedyspozycja\\Add.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\Add.cshtml",
+              "RelativeToolTip": "Views\\Niedyspozycja\\Add.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T23:44:01.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ListaMeczy.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\ListaMeczy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mecz\\ListaMeczy.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\ListaMeczy.cshtml",
+              "RelativeToolTip": "Views\\Mecz\\ListaMeczy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T15:47:49.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mecz\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Mecz\\Edit.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T10:16:35.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mecz\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Mecz\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T10:31:50.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Mecz\\Add.cshtml",
               "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Add.cshtml",
               "RelativeToolTip": "Views\\Mecz\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-14T11:17:32.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Mecz.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Mecz.cs",
-              "RelativeDocumentMoniker": "Models\\Mecz.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Mecz.cs",
-              "RelativeToolTip": "Models\\Mecz.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "Rozgrywki.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Rozgrywki.cs",
+              "RelativeDocumentMoniker": "Models\\Rozgrywki.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Rozgrywki.cs",
+              "RelativeToolTip": "Models\\Rozgrywki.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:27:27.732Z"
+              "WhenOpened": "2024-11-14T11:54:54.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "Sedzia.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Sedzia.cs",
               "RelativeDocumentMoniker": "Models\\Sedzia.cs",
               "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Sedzia.cs",
               "RelativeToolTip": "Models\\Sedzia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:26:50.812Z"
+              "WhenOpened": "2024-11-14T09:26:50.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
+              "Title": "Mecz.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Mecz.cs",
+              "RelativeDocumentMoniker": "Models\\Mecz.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Mecz.cs",
+              "RelativeToolTip": "Models\\Mecz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:27:27.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DBObsadyContext.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Data\\DBObsadyContext.cs",
+              "RelativeDocumentMoniker": "Data\\DBObsadyContext.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Data\\DBObsadyContext.cs",
+              "RelativeToolTip": "Data\\DBObsadyContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:46:55.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:43:16.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IMeczService.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\IMeczService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMeczService.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\IMeczService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IMeczService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:13:07.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RozgrywkiService.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\RozgrywkiService.cs",
+              "RelativeDocumentMoniker": "Services\\RozgrywkiService.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\RozgrywkiService.cs",
+              "RelativeToolTip": "Services\\RozgrywkiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:42:47.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SedziaService.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\SedziaService.cs",
+              "RelativeDocumentMoniker": "Services\\SedziaService.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\SedziaService.cs",
+              "RelativeToolTip": "Services\\SedziaService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:45:18.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NiedyspozycjaController.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\NiedyspozycjaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NiedyspozycjaController.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\NiedyspozycjaController.cs",
+              "RelativeToolTip": "Controllers\\NiedyspozycjaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:14:11.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MeczService.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\MeczService.cs",
+              "RelativeDocumentMoniker": "Services\\MeczService.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\MeczService.cs",
+              "RelativeToolTip": "Services\\MeczService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:12:35.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MeczController.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\MeczController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MeczController.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\MeczController.cs",
+              "RelativeToolTip": "Controllers\\MeczController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:08:33.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:06:28.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ISedziaService.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\ISedziaService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ISedziaService.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\ISedziaService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ISedziaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:44:49.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Niedyspozycja.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Niedyspozycja.cs",
               "RelativeDocumentMoniker": "Models\\Niedyspozycja.cs",
@@ -274,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 31,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -286,67 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "m.Rozgrywki)",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.Rozgrywki)",
-              "RelativeDocumentMoniker": "m.Rozgrywki)",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.Rozgrywki)",
-              "RelativeToolTip": "m.Rozgrywki)",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-16T10:11:34.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Mecz\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Mecz\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T10:16:35.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ListaMeczy.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\ListaMeczy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Mecz\\ListaMeczy.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\ListaMeczy.cshtml",
-              "RelativeToolTip": "Views\\Mecz\\ListaMeczy.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T15:47:49.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\Add.cshtml",
-              "RelativeDocumentMoniker": "Views\\Niedyspozycja\\Add.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\Add.cshtml",
-              "RelativeToolTip": "Views\\Niedyspozycja\\Add.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T23:44:01.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Mecz\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Mecz\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T10:31:50.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 32,
               "Title": "m.SedziaSekretarz)",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.SedziaSekretarz)",
               "RelativeDocumentMoniker": "m.SedziaSekretarz)",
@@ -358,91 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ListaRozgrywek.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\ListaRozgrywek.cshtml",
-              "RelativeDocumentMoniker": "Views\\Rozgrywki\\ListaRozgrywek.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\ListaRozgrywek.cshtml",
-              "RelativeToolTip": "Views\\Rozgrywki\\ListaRozgrywek.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T16:47:55.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\Add.cshtml",
-              "RelativeDocumentMoniker": "Views\\Rozgrywki\\Add.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\Add.cshtml",
-              "RelativeToolTip": "Views\\Rozgrywki\\Add.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T16:24:02.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Show.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Show.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sedzia\\Show.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Show.cshtml",
-              "RelativeToolTip": "Views\\Sedzia\\Show.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T13:57:29.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sedzia\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Sedzia\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T15:23:31.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sedzia\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Sedzia\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T15:25:09.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Add.cshtml",
-              "RelativeDocumentMoniker": "Views\\Sedzia\\Add.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Add.cshtml",
-              "RelativeToolTip": "Views\\Sedzia\\Add.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T14:55:41.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Show.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\Show.cshtml",
-              "RelativeDocumentMoniker": "Views\\Niedyspozycja\\Show.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\Show.cshtml",
-              "RelativeToolTip": "Views\\Niedyspozycja\\Show.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-14T15:47:42.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -454,31 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RozgrywkiController.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\RozgrywkiController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RozgrywkiController.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\RozgrywkiController.cs",
-              "RelativeToolTip": "Controllers\\RozgrywkiController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:15:29.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "m.SedziaI)",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.SedziaI)",
-              "RelativeDocumentMoniker": "m.SedziaI)",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.SedziaI)",
-              "RelativeToolTip": "m.SedziaI)",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-16T10:11:37.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "m.SedziaII)",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\m.SedziaII)",
               "RelativeDocumentMoniker": "m.SedziaII)",
@@ -490,19 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:06:28.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "20241214155819_string.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Migrations\\20241214155819_string.cs",
               "RelativeDocumentMoniker": "Migrations\\20241214155819_string.cs",
@@ -514,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "20241214154108_Sedziahaslo2.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Migrations\\20241214154108_Sedziahaslo2.cs",
               "RelativeDocumentMoniker": "Migrations\\20241214154108_Sedziahaslo2.cs",
@@ -526,43 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "DBObsadyContext.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Data\\DBObsadyContext.cs",
-              "RelativeDocumentMoniker": "Data\\DBObsadyContext.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Data\\DBObsadyContext.cs",
-              "RelativeToolTip": "Data\\DBObsadyContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:46:55.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "SedziaController.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\SedziaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SedziaController.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\SedziaController.cs",
-              "RelativeToolTip": "Controllers\\SedziaController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAuwHIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:12:00.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Rozgrywki.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Rozgrywki.cs",
-              "RelativeDocumentMoniker": "Models\\Rozgrywki.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Rozgrywki.cs",
-              "RelativeToolTip": "Models\\Rozgrywki.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:54:54.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "20241116114332_listy.Designer.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Migrations\\20241116114332_listy.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20241116114332_listy.Designer.cs",
@@ -574,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "20241116111501_klasa.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Migrations\\20241116111501_klasa.cs",
               "RelativeDocumentMoniker": "Migrations\\20241116111501_klasa.cs",
@@ -586,19 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:43:16.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "20241116111501_klasa.Designer.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Migrations\\20241116111501_klasa.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20241116111501_klasa.Designer.cs",
@@ -610,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "20241116105707_Init.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Migrations\\20241116105707_Init.cs",
               "RelativeDocumentMoniker": "Migrations\\20241116105707_Init.cs",
@@ -622,19 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T10:42:55.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "20241116104011_sedziowanie.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\source\\repos\\Sedziowanie\\Migrations\\20241116104011_sedziowanie.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Sedziowanie\\Migrations\\20241116104011_sedziowanie.cs",
@@ -645,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "20241116103525_akt.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\source\\repos\\Sedziowanie\\Migrations\\20241116103525_akt.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Sedziowanie\\Migrations\\20241116103525_akt.cs",

@@ -1,15 +1,21 @@
 using Microsoft.EntityFrameworkCore;
 using Sedziowanie.Data;
+using Sedziowanie.Services;
+using Sedziowanie.Services.Interfaces;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Dodajemy us³ugi do kontenera
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IMeczService, MeczService>();
+builder.Services.AddScoped<INiedyspozycjaService, NiedyspozycjaService>();
+builder.Services.AddScoped<IRozgrywkiService, RozgrywkiService>();
+builder.Services.AddScoped<ISedziaService, SedziaService>();
 builder.Services.AddDbContext<DBObsadyContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ObsadyDB")));
 
-// Dodajemy us³ugê sesji
+
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -19,7 +25,7 @@ builder.Services.AddSession(options =>
 
 var app = builder.Build();
 
-// Konfiguracja potoku ¿¹dañ HTTP
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -31,7 +37,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseSession(); // W³¹czamy obs³ugê sesji
+app.UseSession(); 
 
 app.UseAuthorization();
 

@@ -1,36 +1,31 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Sedziowanie.Models;
-using Sedziowanie.Data;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
+using Sedziowanie.Services.Interfaces;
 
 namespace Sedziowanie.Controllers
 {
     public class SedziaController : Controller
     {
-        private readonly DBObsadyContext _context;
+        private readonly ISedziaService _sedziaService;
 
-        public SedziaController(DBObsadyContext context)
+        public SedziaController(ISedziaService sedziaService)
         {
-            _context = context;
+            _sedziaService = sedziaService;
         }
 
-        // Akcja: Wyświetlenie listy sędziów
         [HttpGet]
         public IActionResult Show()
         {
-            var sedziowie = _context.Sedziowie.ToList();
+            var sedziowie = _sedziaService.GetAllSedziowie();
             return View(sedziowie);
         }
 
-        // Akcja: Wyświetlenie formularza dodania sędziego
         [HttpGet]
         public IActionResult Add()
         {
             return View();
         }
 
-        // Akcja: Obsługa dodawania sędziego
         [HttpPost]
         public IActionResult Add(Sedzia sedzia)
         {
@@ -39,17 +34,14 @@ namespace Sedziowanie.Controllers
                 return View(sedzia);
             }
 
-            _context.Sedziowie.Add(sedzia);
-            _context.SaveChanges();
-
+            _sedziaService.AddSedzia(sedzia);
             return RedirectToAction("Show");
         }
 
-        // Akcja: Edycja sędziego (GET - formularz)
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var sedzia = _context.Sedziowie.FirstOrDefault(s => s.Id == id);
+            var sedzia = _sedziaService.GetSedziaById(id);
             if (sedzia == null)
             {
                 return NotFound();
@@ -57,7 +49,6 @@ namespace Sedziowanie.Controllers
             return View(sedzia);
         }
 
-        // Akcja: Edycja sędziego (POST - zapis zmian)
         [HttpPost]
         public IActionResult Edit(Sedzia sedzia)
         {
@@ -66,17 +57,14 @@ namespace Sedziowanie.Controllers
                 return View(sedzia);
             }
 
-            _context.Sedziowie.Update(sedzia);
-            _context.SaveChanges();
-
+            _sedziaService.UpdateSedzia(sedzia);
             return RedirectToAction("Show");
         }
 
-        // Akcja: Usunięcie sędziego (GET - potwierdzenie)
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var sedzia = _context.Sedziowie.FirstOrDefault(s => s.Id == id);
+            var sedzia = _sedziaService.GetSedziaById(id);
             if (sedzia == null)
             {
                 return NotFound();
@@ -84,50 +72,18 @@ namespace Sedziowanie.Controllers
             return View(sedzia);
         }
 
-        // Akcja: Usunięcie sędziego (POST - potwierdzenie usunięcia)
         [HttpPost]
         public IActionResult DeleteConfirmed(int id)
         {
-            var sedzia = _context.Sedziowie.FirstOrDefault(s => s.Id == id);
-            if (sedzia == null)
-            {
-                return NotFound();
-            }
-
-            _context.Sedziowie.Remove(sedzia);
-            _context.SaveChanges();
-
+            _sedziaService.DeleteSedzia(id);
             return RedirectToAction("Show");
         }
 
-        // Akcja: Mecze sędziego
         [HttpGet]
         public IActionResult MeczeSedziego(int sedziaId)
         {
-            var mecze = _context.Mecze
-                .Include(m => m.Rozgrywki)
-                .Include(m => m.SedziaI)
-                .Include(m => m.SedziaII)
-                .Include(m => m.SedziaSekretarz)
-                .Where(m => m.SedziaIId == sedziaId || m.SedziaIIId == sedziaId || m.SedziaSekretarzId == sedziaId)
-                .Select(m => new
-                {
-                    m.NumerMeczu,
-                    m.Data,
-                    m.Gospodarz,
-                    m.Gosc,
-                    Rozgrywki = m.Rozgrywki.Nazwa,
-                    SedziaI = m.SedziaI.Imie + " " + m.SedziaI.Nazwisko,
-                    SedziaII = m.SedziaII.Imie + " " + m.SedziaII.Nazwisko,
-                    SedziaSekretarz = m.SedziaSekretarz.Imie + " " + m.SedziaSekretarz.Nazwisko
-                })
-                .ToList();
-
-            ViewBag.Sedzia = _context.Sedziowie
-                .Where(s => s.Id == sedziaId)
-                .Select(s => s.Imie + " " + s.Nazwisko)
-                .FirstOrDefault();
-
+            var mecze = _sedziaService.GetMeczeForSedzia(sedziaId);
+            ViewBag.Sedzia = _sedziaService.GetSedziaName(sedziaId);
             return View(mecze);
         }
     }

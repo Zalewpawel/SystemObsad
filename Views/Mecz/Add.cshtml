@@ -24,7 +24,7 @@
 <h2>Dodaj Mecz</h2>
 
 <form asp-action="Add" method="get">
-    <!-- Data Meczu + Przycisk Filtruj -->
+   
     <div class="form-group d-flex">
         <div>
             <label for="Data">Data Meczu</label>
@@ -37,15 +37,15 @@
     </div>
 </form>
 
-<!-- Formularz dodawania meczu -->
+
 <form asp-action="Add" method="post">
-    <!-- Numer Meczu -->
+    
     <div class="form-group">
         <label for="NumerMeczu">Numer Meczu</label>
         <input type="text" id="NumerMeczu" name="numerMeczu" class="form-control" required />
     </div>
 
-    <!-- Rozgrywki -->
+    
     <div class="form-group">
         <label for="RozgrywkiId">Rozgrywki</label>
         <select id="RozgrywkiId" name="rozgrywkiId" class="form-control" required>
@@ -57,19 +57,19 @@
         </select>
     </div>
 
-    <!-- Gospodarz -->
+    
     <div class="form-group">
         <label for="Gospodarz">Gospodarz</label>
         <input type="text" id="Gospodarz" name="gospodarz" class="form-control" maxlength="100" required />
     </div>
 
-    <!-- Gość -->
+    
     <div class="form-group">
         <label for="Gosc">Gość</label>
         <input type="text" id="Gosc" name="gosc" class="form-control" maxlength="100" required />
     </div>
 
-    <!-- Sędziowie -->
+  
     <div class="form-group">
         <label for="SedziaIId">Sędzia I</label>
         <select id="SedziaIId" name="sedziaIId" class="form-control" required>
@@ -115,6 +115,6 @@
         </select>
     </div>
 
-    <!-- Przycisk Dodaj Mecz -->
+  
     <button type="submit" class="btn btn-primary">Dodaj Mecz</button>
 </form>

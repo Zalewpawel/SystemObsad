@@ -554,3 +554,4 @@ C:\Users\zalew\OneDrive\Pulpit\Sedziowanie\obj\Debug\net8.0\refint\Sedziowanie.d
 C:\Users\zalew\OneDrive\Pulpit\Sedziowanie\obj\Debug\net8.0\Sedziowanie.pdb
 C:\Users\zalew\OneDrive\Pulpit\Sedziowanie\obj\Debug\net8.0\Sedziowanie.genruntimeconfig.cache
 C:\Users\zalew\OneDrive\Pulpit\Sedziowanie\obj\Debug\net8.0\ref\Sedziowanie.dll
+C:\Users\zalew\OneDrive\Pulpit\Sedziowanie\obj\Debug\net8.0\Sedziowanie.sourcelink.json

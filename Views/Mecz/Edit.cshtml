@@ -27,19 +27,19 @@
 <form asp-action="Edit" method="post">
     <input type="hidden" id="Id" name="Id" value="@Model.Id" />
 
-    <!-- Numer Meczu -->
+ 
     <div class="form-group">
         <label for="NumerMeczu">Numer Meczu</label>
         <input type="text" id="NumerMeczu" name="NumerMeczu" class="form-control" required value="@Model.NumerMeczu" />
     </div>
 
-    <!-- Data Meczu -->
+  
     <div class="form-group">
         <label for="Data">Data Meczu</label>
         <input type="datetime-local" id="Data" name="Data" class="form-control" required value="@Model.Data.ToString("yyyy-MM-ddTHH:mm")" />
     </div>
 
-    <!-- Rozgrywki -->
+    
     <div class="form-group">
         <label for="RozgrywkiId">Rozgrywki</label>
         <select id="RozgrywkiId" name="RozgrywkiId" class="form-control" required>
@@ -51,19 +51,19 @@
         </select>
     </div>
 
-    <!-- Gospodarz -->
+   
     <div class="form-group">
         <label for="Gospodarz">Gospodarz</label>
         <input type="text" id="Gospodarz" name="Gospodarz" class="form-control" required value="@Model.Gospodarz" />
     </div>
 
-    <!-- Gość -->
+    
     <div class="form-group">
         <label for="Gosc">Gość</label>
         <input type="text" id="Gosc" name="Gosc" class="form-control" required value="@Model.Gosc" />
     </div>
 
-    <!-- Sedzia I -->
+   
     <div class="form-group">
         <label for="SedziaIId">Sędzia I</label>
         
@@ -75,7 +75,7 @@
         </select>
     </div>
 
-    <!-- Sedzia II -->
+    
     <div class="form-group">
         <label for="SedziaIIId">Sędzia II</label>
         <select id="SedziaIIId" name="SedziaIIId" class="form-control" required>
@@ -86,7 +86,7 @@
         </select>
     </div>
 
-    <!-- Sedzia Sekretarz -->
+    
     <div class="form-group">
         <label for="SedziaSekretarzId">Sędzia Sekretarz</label>
         <select id="SedziaSekretarzId" name="SedziaSekretarzId" class="form-control" required>

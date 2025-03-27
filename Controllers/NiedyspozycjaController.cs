@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Sedziowanie.Services.Interfaces;
 using System;
@@ -21,6 +22,7 @@ namespace Sedziowanie.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Sedzia")]
         public IActionResult Add()
         {
             ViewBag.Sedziowie = new SelectList(_niedyspozycjaService.GetSedziowieList(), "Id", "FullName");

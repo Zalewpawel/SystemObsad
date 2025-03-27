@@ -1,0 +1,7 @@
+﻿@model Sedziowanie.ViewModels.LoginViewModel
+<form asp-action="Login">
+    <input asp-for="Email" placeholder="Email" />
+    <input asp-for="Password" type="password" placeholder="Hasło" />
+    <input asp-for="RememberMe" type="checkbox" /> Zapamiętaj mnie
+    <button type="submit">Zaloguj</button>
+</form>

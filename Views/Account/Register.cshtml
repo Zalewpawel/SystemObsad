@@ -1,0 +1,18 @@
+﻿@model Sedziowanie.ViewModels.RegisterViewModel
+<form asp-action="Register">
+    <input asp-for="Imie" placeholder="Imię" />
+    <input asp-for="Nazwisko" placeholder="Nazwisko" />
+    <div class="form-group">
+        <label for="role">Wybierz rolę</label>
+        <select asp-for="Role" class="form-control">
+            <option value="Admin">Admin</option>
+            <option value="Sedzia">Sędzia</option>
+            <option value="User">User</option>
+        </select>
+    </div>
+    <input asp-for="Email" placeholder="Email" />
+    <input asp-for="Password" type="password" placeholder="Hasło" />
+    <input asp-for="ConfirmPassword" type="password" placeholder="Potwierdź hasło" />
+    <button type="submit">Zarejestruj</button>
+</form>
+

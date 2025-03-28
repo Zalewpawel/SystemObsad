@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sedziowanie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e610f4d21314a09056bb629007f3079c05c62019")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+046f9bad85af18cb775ddeaeb7ee4c61add17e25")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sedziowanie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sedziowanie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

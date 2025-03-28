@@ -22,7 +22,7 @@ namespace Sedziowanie.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Sedzia")]
+        
         public IActionResult Add()
         {
             ViewBag.Sedziowie = new SelectList(_niedyspozycjaService.GetSedziowieList(), "Id", "FullName");

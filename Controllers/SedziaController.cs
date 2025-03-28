@@ -14,7 +14,20 @@ namespace Sedziowanie.Controllers
         }
 
         [HttpGet]
-        public IActionResult Show()
+        public IActionResult ShowAll()
+        {
+            var sedziowie = _sedziaService.GetAllSedziowie();
+            return View(sedziowie);
+        }
+        [HttpGet]
+        public IActionResult ShowBezDanych()
+        {
+            var sedziowie = _sedziaService.GetAllSedziowie();
+            return View(sedziowie);
+        }
+
+        [HttpGet]
+        public IActionResult ShowSedzia()
         {
             var sedziowie = _sedziaService.GetAllSedziowie();
             return View(sedziowie);
@@ -35,7 +48,7 @@ namespace Sedziowanie.Controllers
             }
 
             _sedziaService.AddSedzia(sedzia);
-            return RedirectToAction("Show");
+            return RedirectToAction("ShowAll");
         }
 
         [HttpGet]
@@ -58,7 +71,7 @@ namespace Sedziowanie.Controllers
             }
 
             _sedziaService.UpdateSedzia(sedzia);
-            return RedirectToAction("Show");
+            return RedirectToAction("ShowAll");
         }
 
         [HttpGet]
@@ -76,7 +89,7 @@ namespace Sedziowanie.Controllers
         public IActionResult DeleteConfirmed(int id)
         {
             _sedziaService.DeleteSedzia(id);
-            return RedirectToAction("Show");
+            return RedirectToAction("ShowAll");
         }
 
         [HttpGet]

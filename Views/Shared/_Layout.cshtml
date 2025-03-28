@@ -14,44 +14,108 @@
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Mecz" asp-action="ListaMeczy">Sedziowanie</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                       
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Mecz" asp-action="ListaMeczy">Lista Meczów</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Mecz" asp-action="Add">Dodaj mecz</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Sedzia" asp-action="Show">Lista sędziów</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Sedzia" asp-action="Add">Dodaj sędziego</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Niedyspozycja" asp-action="Add">Zgłoś niedyspozycję</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Niedyspozycja" asp-action="Show">Niedyspozycje</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Rozgrywki" asp-action="Add">Dodaj rozgrywki</a>
-                        </li>
+
+
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Mecz" asp-action="ListaMeczowAdmin">Lista Meczow</a>
+                            </li>
+                        } 
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Mecz" asp-action="ListaMeczow">Lista Meczów</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Admin") )
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Mecz" asp-action="Add">Dodaj mecz</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Sedzia" asp-action="ShowAll">Lista sędziów</a>
+                            </li>
+                        }
+                        else if ((User.IsInRole("Sedzia")) || (User.IsInRole("User")))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Sedzia" asp-action="ShowSedzia">Lista sędziów</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Sedzia" asp-action="ShowBezDanych">Lista sędziów</a>
+                            </li>
+                        }
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Sedzia" asp-action="Add">Dodaj sędziego</a>
+                            </li>
+                        }
+
+                        @if ((User.IsInRole("Sedzia")) || (User.IsInRole("Admin")))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Niedyspozycja" asp-action="Add">Zgłoś niedyspozycję</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Niedyspozycja" asp-action="Show">Niedyspozycje</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Rozgrywki" asp-action="Add">Dodaj rozgrywki</a>
+                            </li>
+                        }
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Rozgrywki" asp-action="ListaRozgrywek">Lista rozgrywek</a>
                         </li>
+
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Zaloguj</a>
+                            </li>
+                        }
+                        else
+                        {
+                            
+                                <span class="navbar-text text-dark">
+                                    Zalogowano jako: <strong>@User.Identity.Name</strong>
+                                </span>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Account" asp-action="Logout">Wyloguj</a>
+                                </li>
+
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {    
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Zaloguj</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Zarejestruj</a>
-                        </li>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Zarejestruj</a>
+                            </li>
+                        }
+                        
+
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>

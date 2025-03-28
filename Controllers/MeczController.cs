@@ -56,10 +56,15 @@ namespace Sedziowanie.Controllers
 
             _meczService.AddMecz(mecz);
 
-            return RedirectToAction("ListaMeczy");
+            return RedirectToAction("ListaMeczowAdmin");
         }
 
-        public IActionResult ListaMeczy()
+        public IActionResult ListaMeczowAdmin()
+        {
+            var mecze = _meczService.GetAllMecze();
+            return View(mecze);
+        }
+        public IActionResult ListaMeczow()
         {
             var mecze = _meczService.GetAllMecze();
             return View(mecze);
@@ -90,7 +95,7 @@ namespace Sedziowanie.Controllers
             }
 
             _meczService.UpdateMecz(mecz);
-            return RedirectToAction("ListaMeczy");
+            return RedirectToAction("ListaMeczowAdmin");
         }
 
         [HttpGet]
@@ -110,7 +115,7 @@ namespace Sedziowanie.Controllers
         public IActionResult DeleteConfirmed(int id)
         {
             _meczService.DeleteMecz(id);
-            return RedirectToAction("ListaMeczy");
+            return RedirectToAction("ListaMeczowAdmin");
         }
     }
 }

@@ -34,7 +34,7 @@ namespace Sedziowanie.Controllers
             return View();
         }
        
-        [Authorize(Roles = "Admin")] 
+        
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
@@ -46,7 +46,7 @@ namespace Sedziowanie.Controllers
                 if (result.Succeeded)
                 {
                     await _userManager.AddToRoleAsync(user, model.Role);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("ShowAll", "Sedzia");
                 }
                 AddErrors(result);
             }
@@ -68,7 +68,7 @@ namespace Sedziowanie.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("ShowSedzia", "Sedzia");
                 }
 
                 ModelState.AddModelError("", "Nieprawidłowy login lub hasło.");
@@ -77,11 +77,11 @@ namespace Sedziowanie.Controllers
             return View(model);
         }
 
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("ShowBezDanych", "Sedzia");
         }
     }
 }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sedziowanie.Data;
 
@@ -11,9 +12,11 @@ using Sedziowanie.Data;
 namespace Sedziowanie.Migrations
 {
     [DbContext(typeof(DBObsadyContext))]
-    partial class DBObsadyContextModelSnapshot : ModelSnapshot
+    [Migration("20250402201941_SedziaUser")]
+    partial class SedziaUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

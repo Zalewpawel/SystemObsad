@@ -1,18 +1,69 @@
 ﻿@model Sedziowanie.ViewModels.RegisterViewModel
-<form asp-action="Register">
-    <input asp-for="Imie" placeholder="Imię" />
-    <input asp-for="Nazwisko" placeholder="Nazwisko" />
+
+<form asp-action="Register" method="post">
     <div class="form-group">
-        <label for="role">Wybierz rolę</label>
-        <select asp-for="Role" class="form-control">
+        <label asp-for="Role"></label>
+        <select asp-for="Role" class="form-control" id="roleSelect">
             <option value="Admin">Admin</option>
             <option value="Sedzia">Sędzia</option>
             <option value="User">User</option>
         </select>
     </div>
-    <input asp-for="Email" placeholder="Email" />
-    <input asp-for="Password" type="password" placeholder="Hasło" />
-    <input asp-for="ConfirmPassword" type="password" placeholder="Potwierdź hasło" />
-    <button type="submit">Zarejestruj</button>
+
+    <div class="form-group" id="sedziaSelect" style="display: none;">
+        <label asp-for="SedziaId"></label>
+        <select asp-for="SedziaId" class="form-control" id="sedziaDropdown"
+                asp-items="@(new SelectList(Model.AvailableSedziowie, "Id", "Nazwisko"))">
+            <option value="">-- Wybierz sędziego --</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Imie"></label>
+        <input asp-for="Imie" class="form-control" id="imieInput" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nazwisko"></label>
+        <input asp-for="Nazwisko" class="form-control" id="nazwiskoInput" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" id="emailInput" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ConfirmPassword"></label>
+        <input asp-for="ConfirmPassword" type="password" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Zarejestruj</button>
 </form>
 
+<script>
+    document.getElementById("roleSelect").addEventListener("change", function () {
+        var sedziaSelect = document.getElementById("sedziaSelect");
+        var isSedzia = this.value === "Sedzia";
+        sedziaSelect.style.display = isSedzia ? "block" : "none";
+        document.getElementById("imieInput").readOnly = isSedzia;
+        document.getElementById("nazwiskoInput").readOnly = isSedzia;
+        document.getElementById("emailInput").readOnly = isSedzia;
+    });
+
+    document.getElementById("sedziaDropdown").addEventListener("change", function () {
+        var selectedSedziaId = this.value;
+        fetch(`/Account/GetSedziaData?sid=${selectedSedziaId}`)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("imieInput").value = data.imie;
+                document.getElementById("nazwiskoInput").value = data.nazwisko;
+                document.getElementById("emailInput").value = data.email;
+            });
+    });
+</script>

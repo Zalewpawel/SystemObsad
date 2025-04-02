@@ -8,6 +8,8 @@ namespace Sedziowanie.Services.Interfaces
     {
         List<Niedyspozycja> GetAllNiedyspozycje();
         List<object> GetSedziowieList();
+        Sedzia GetSedziaByUserId(string userId);
+
         void AddNiedyspozycja(int sedziaId, DateTime poczatek, DateTime koniec);
     }
 }

@@ -30,7 +30,7 @@ namespace Sedziowanie.Controllers
       
         [HttpPost]
         public IActionResult Add(string numerMeczu, DateTime data, int rozgrywkiId, string gospodarz, string gosc,
-                                 int sedziaIId, int sedziaIIId, int sedziaSekretarzId)
+                                 int? sedziaIId, int? sedziaIIId, int? sedziaSekretarzId)
         {
             if (data < DateTime.Now)
             {

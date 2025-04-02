@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Sedziowanie.Models
 {
@@ -6,5 +7,9 @@ namespace Sedziowanie.Models
     {
         public string? Imie { get; set; }
         public string? Nazwisko { get; set; }
+        public int? SedziaId { get; set; }
+
+        [ForeignKey("SedziaId")]
+        public virtual Sedzia? Sedzia { get; set; }
     }
 }

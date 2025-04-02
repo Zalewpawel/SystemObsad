@@ -18,6 +18,7 @@ namespace Sedziowanie.Services
             _context = context;
         }
 
+       
         public List<Niedyspozycja> GetAllNiedyspozycje()
         {
             return _context.Niedyspozycje
@@ -25,16 +26,27 @@ namespace Sedziowanie.Services
                 .ToList();
         }
 
-        public List<object> GetSedziowieList()
+        
+        public List<SelectListItem> GetSedziowieList()
         {
             return _context.Sedziowie
-                .Select(s => new
+                .Select(s => new SelectListItem
                 {
-                    FullName = s.Imie + " " + s.Nazwisko,
-                    s.Id
+                    Text = s.Imie + " " + s.Nazwisko,
+                    Value = s.Id.ToString()
                 })
-                .ToList<object>();
+                .ToList();
         }
+
+        
+       
+        public Sedzia GetSedziaByUserId(string userId)
+        {
+            var user = _context.Users.Include(u => u.Sedzia).FirstOrDefault(u => u.Id == userId);
+            return user?.Sedzia;
+        }
+
+
 
         public void AddNiedyspozycja(int sedziaId, DateTime poczatek, DateTime koniec)
         {
@@ -58,6 +70,11 @@ namespace Sedziowanie.Services
 
             _context.Niedyspozycje.Add(niedyspozycja);
             _context.SaveChanges();
+        }
+
+        List<object> INiedyspozycjaService.GetSedziowieList()
+        {
+            throw new NotImplementedException();
         }
     }
 }

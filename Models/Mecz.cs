@@ -24,17 +24,17 @@ namespace Sedziowanie.Models
         [MaxLength(100)]
         public string Gosc { get; set; }
        
-        public int SedziaIId { get; set; }
+        public int? SedziaIId { get; set; }
        
         public Sedzia SedziaI { get; set; }
 
        
-        public int SedziaIIId { get; set; }
+        public int? SedziaIIId { get; set; }
         
         public Sedzia SedziaII { get; set; }
 
       
-        public int SedziaSekretarzId { get; set; }
+        public int? SedziaSekretarzId { get; set; }
         
         public Sedzia SedziaSekretarz { get; set; }
     }

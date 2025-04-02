@@ -1,16 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using Sedziowanie.Models;
 
 namespace Sedziowanie.ViewModels
 {
     public class RegisterViewModel
     {
-        [Required]
-        [Display(Name = "Imię")]
-        public string Imie { get; set; }
+        [Display(Name = "Sędzia")]
+        public int? SedziaId { get; set; }
 
         [Required]
-        [Display(Name = "Nazwisko")]
-        public string Nazwisko { get; set; }
+        [Display(Name = "Rola")]
+        public string Role { get; set; }
 
         [Required]
         [EmailAddress]
@@ -28,7 +29,12 @@ namespace Sedziowanie.ViewModels
         [Display(Name = "Potwierdź hasło")]
         public string ConfirmPassword { get; set; }
 
-        [Required]
-        public string Role { get; set; }
+        public List<Sedzia> AvailableSedziowie { get; set; } = new List<Sedzia>();
+
+        [Display(Name = "Imię")]
+        public string Imie { get; set; }
+
+        [Display(Name = "Nazwisko")]
+        public string Nazwisko { get; set; }
     }
 }

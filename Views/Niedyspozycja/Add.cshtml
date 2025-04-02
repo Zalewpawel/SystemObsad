@@ -1,36 +1,24 @@
 ﻿@model Sedziowanie.Models.Niedyspozycja
 
-
-
 @{
     ViewData["Title"] = "Dodaj Niedyspozycję";
+    bool isSedzia = ViewBag.SedziaId != null;
 }
-<style>
-    body {
-        background-image: url('/sedzia.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: Arial, sans-serif;
-    }
 
-    h2 {
-        color: #fff;
-    }
-
-    table {
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
 <h2>Dodaj Niedyspozycję</h2>
 
 <form asp-action="Add" method="post">
-    <div class="form-group">
-        <label for="sedziaId" class="control-label">Sędzia</label>
-        <select id="sedziaId" name="sedziaId" class="form-control" asp-items="ViewBag.Sedziowie"></select>
-    </div>
+    @if (!isSedzia)
+    {
+        <div class="form-group">
+            <label for="sedziaId" class="control-label">Sędzia</label>
+            <select id="sedziaId" name="sedziaId" class="form-control" asp-items="ViewBag.Sedziowie"></select>
+        </div>
+    }
+    else
+    {
+        <input type="hidden" name="sedziaId" value="@ViewBag.SedziaId" />
+    }
 
     <div class="form-group">
         <label for="poczatek" class="control-label">Początek</label>
@@ -45,7 +33,3 @@
     <button type="submit" class="btn btn-primary">Dodaj</button>
     <a asp-action="Show" class="btn btn-secondary">Anuluj</a>
 </form>
-
-@section Scripts {
-    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
-}

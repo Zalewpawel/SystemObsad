@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Sedziowanie.ViewModels.UserViewModel>
+
+@{
+    ViewData["Title"] = "Lista użytkowników";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Imię</th>
+            <th>Nazwisko</th>
+            <th>Email</th>
+            <th>Rola</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Imie</td>
+                <td>@user.Nazwisko</td>
+                <td>@user.Email</td>
+                <td>@user.Role</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-primary">Edytuj</a>
+                    <form asp-action="Delete" asp-route-id="@user.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Czy na pewno chcesz usunąć użytkownika?');">Usuń</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

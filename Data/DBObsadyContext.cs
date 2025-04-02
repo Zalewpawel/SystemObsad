@@ -57,6 +57,12 @@ namespace Sedziowanie.Data
                 .WithMany(r => r.Mecze)
                 .HasForeignKey(m => m.RozgrywkiId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<ApplicationUser>()
+               .HasOne(u => u.Sedzia)
+               .WithOne()
+               .HasForeignKey<ApplicationUser>(u => u.SedziaId)
+               .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

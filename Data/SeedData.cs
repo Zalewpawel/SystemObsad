@@ -25,25 +25,7 @@ namespace Sedziowanie.Data
                     }
                 }
 
-               
-                string adminEmail = "admin@sedziowanie.pl";
-                string adminPassword = "Admin123!";
-
-                var adminUser = await userManager.FindByEmailAsync(adminEmail);
-                if (adminUser == null)
-                {
-                    adminUser = new ApplicationUser
-                    {
-                        UserName = adminEmail,
-                        Email = adminEmail,
-                        EmailConfirmed = true
-                    };
-                    var result = await userManager.CreateAsync(adminUser, adminPassword);
-                    if (result.Succeeded)
-                    {
-                        await userManager.AddToRoleAsync(adminUser, "Admin");
-                    }
-                }
+           
             }
         }
     }

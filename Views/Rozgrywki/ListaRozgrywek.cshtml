@@ -3,46 +3,70 @@
 @{
     ViewData["Title"] = "Lista Rozgrywek";
 }
+
 <style>
-    body {
-        background-image: url('/blok.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: Arial, sans-serif;
+    .custom-card {
+        background-color: #c5c2b8;
+        border: 1px solid #bfb8a8;
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        padding: 20px;
+        color: white;
     }
 
-    h2 {
-        color: #fff;
+        .custom-card h2 {
+            color: white;
+        }
+
+    .custom-table td a {
+        display: inline-block;
+        padding: 6px 14px;
+        background-color: #eceae4; 
+        color: #333 !important; 
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: 0.2s ease;
     }
 
-    table {
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        padding: 10px;
+        .custom-table td a:hover {
+            background-color: #d0ccc2;
+            color: black !important;
+        }
+
+    .custom-table th {
+        background-color: #f5f5f5;
+        color: #333;
     }
 </style>
-<h2>@ViewData["Title"]</h2>
 
-<table class="table">
-    <thead>
-        <tr>
-         
-            <th scope="col">Nazwa</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var rozgrywki in Model)
-        {
-            <tr>
-               
-                <td>
-                    <a asp-action="MeczeRozgrywek" asp-route-rozgrywkiId="@rozgrywki.Id">
-                        @rozgrywki.Nazwa
-                    </a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+
+<div class="container mt-3">
+    <div class="custom-card">
+        <h2 class="mb-4">@ViewData["Title"]</h2>
+
+        <table class="table table-bordered table-hover custom-table text-center">
+            <thead>
+                <tr>
+                    <th scope="col">Nazwa</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var rozgrywki in Model)
+                {
+                    <tr>
+                        <td>
+                            <a class="btn btn-custom-link" asp-action="MeczeRozgrywek" asp-route-rozgrywkiId="@rozgrywki.Id">
+                                @rozgrywki.Nazwa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</div>
+
 

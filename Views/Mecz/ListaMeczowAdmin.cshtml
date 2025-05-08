@@ -4,30 +4,10 @@
     ViewData["Title"] = "Lista Meczów";
 }
 
-<style>
-    body {
-        background-image: url('/tlo.jpg'); 
-        background-size: cover; 
-        background-repeat: no-repeat;
-        background-attachment: fixed; 
-        font-family: Arial, sans-serif;
-    }
-
-    h2 {
-        color: #fff; 
-    }
-
-    table {
-        background-color: rgba(255, 255, 255, 0.9); 
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
-
 <h2>Lista Meczów</h2>
 
-<table class="table">
-    <thead>
+<table class="table table-bordered text-center">
+    <thead class="thead-softgray">
         <tr>
             <th>Numer Meczu</th>
             <th>Data</th>
@@ -49,14 +29,26 @@
                 <td>@mecz.Rozgrywki?.Nazwa</td>
                 <td>@mecz.Gospodarz</td>
                 <td>@mecz.Gosc</td>
-                <td>@mecz.SedziaI?.Imie @mecz.SedziaI?.Nazwisko</td>
-                <td>@mecz.SedziaII?.Imie @mecz.SedziaII?.Nazwisko</td>
-                <td>@mecz.SedziaSekretarz?.Imie @mecz.SedziaSekretarz?.Nazwisko</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@mecz.Id" class="btn btn-warning">Edytuj</a>
-                    <a asp-action="Delete" asp-route-id="@mecz.Id" class="btn btn-danger">Usuń</a>
+                    @mecz.SedziaI?.Imie<br />
+                    @mecz.SedziaI?.Nazwisko
                 </td>
-
+                <td>
+                    @mecz.SedziaII?.Imie<br />
+                    @mecz.SedziaII?.Nazwisko
+                </td>
+                <td>
+                    @mecz.SedziaSekretarz?.Imie<br />
+                    @mecz.SedziaSekretarz?.Nazwisko
+                </td>
+                <td>
+                    <a asp-controller="Mecz" asp-action="Edit" asp-route-id="@mecz.Id" class="btn btn-sm custom-btn btn-outline-primary">
+                        <i class="fas fa-pen"></i> Edytuj
+                    </a>
+                    <a asp-controller="Mecz" asp-action="Delete" asp-route-id="@mecz.Id" class="btn btn-sm custom-btn" style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb;">
+                        <i class="fas fa-trash"></i> Usuń
+                    </a>
+                </td>
             </tr>
         }
     </tbody>

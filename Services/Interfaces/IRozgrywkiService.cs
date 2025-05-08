@@ -7,7 +7,7 @@ namespace Sedziowanie.Services.Interfaces
     {
         void AddRozgrywki(Rozgrywki rozgrywki);
         List<Rozgrywki> GetAllRozgrywki();
-        List<object> GetMeczeForRozgrywki(int rozgrywkiId);
+        List<Object> GetMeczeForRozgrywki(int rozgrywkiId);
         string GetRozgrywkaName(int rozgrywkiId);
     }
 }

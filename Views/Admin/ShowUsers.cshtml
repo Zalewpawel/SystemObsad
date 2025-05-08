@@ -25,11 +25,20 @@
                 <td>@user.Email</td>
                 <td>@user.Role</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-primary">Edytuj</a>
+                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-sm custom-btn btn-outline-primary">
+                        <i class="fas fa-pen"></i> Edytuj
+                    </a>
+
                     <form asp-action="Delete" asp-route-id="@user.Id" method="post" style="display:inline;">
-                        <button type="submit" class="btn btn-danger" onclick="return confirm('Czy na pewno chcesz usunąć użytkownika?');">Usuń</button>
+                        <button type="submit" class="btn btn-sm custom-btn"
+                                style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb;"
+                                onclick="return confirm('Czy na pewno chcesz usunąć użytkownika?');">
+                            <i class="fas fa-trash"></i> Usuń
+                        </button>
                     </form>
                 </td>
+
+
             </tr>
         }
     </tbody>

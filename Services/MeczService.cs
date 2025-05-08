@@ -1,23 +1,73 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using MailKit.Net.Smtp;
+using Microsoft.EntityFrameworkCore;
+using MimeKit;
 using Sedziowanie.Data;
 using Sedziowanie.Models;
 using Sedziowanie.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace Sedziowanie.Services
+public class MeczService : IMeczService
 {
-    public class MeczService : IMeczService
+    private readonly DBObsadyContext _context;
+    private readonly IEmailService _emailService;
+
+    public MeczService(DBObsadyContext context, IEmailService emailService)
     {
-        private readonly DBObsadyContext _context;
+        _context = context;
+        _emailService = emailService;
+    }
 
-        public MeczService(DBObsadyContext context)
+    public void AddMecz(string numerMeczu, DateTime data, int rozgrywkiId, string gospodarz, string gosc,
+                    int? sedziaIId, int? sedziaIIId, int? sedziaSekretarzId)
+    {
+        var mecz = new Mecz
         {
-            _context = context;
-        }
+            NumerMeczu = numerMeczu,
+            Data = data,
+            Gospodarz = gospodarz,
+            Gosc = gosc,
+            RozgrywkiId = rozgrywkiId,
+            SedziaIId = sedziaIId,
+            SedziaIIId = sedziaIIId,
+            SedziaSekretarzId = sedziaSekretarzId
+        };
 
-        public List<object> GetSedziowieByDate(DateTime date)
+        _context.Mecze.Add(mecz);
+        _context.SaveChanges();
+
+        List<string> sedziowieEmails = new List<string>();
+
+        if (mecz.SedziaIId.HasValue)
+            sedziowieEmails.Add(_context.Sedziowie.FirstOrDefault(s => s.Id == mecz.SedziaIId)?.Email);
+
+        if (mecz.SedziaIIId.HasValue)
+            sedziowieEmails.Add(_context.Sedziowie.FirstOrDefault(s => s.Id == mecz.SedziaIIId)?.Email);
+
+        if (mecz.SedziaSekretarzId.HasValue)
+            sedziowieEmails.Add(_context.Sedziowie.FirstOrDefault(s => s.Id == mecz.SedziaSekretarzId)?.Email);
+
+        sedziowieEmails = sedziowieEmails.Where(email => !string.IsNullOrEmpty(email)).ToList();
+
+        if (sedziowieEmails.Any())
+        {
+            Task.Run(() => SendMatchEmail(mecz, sedziowieEmails));
+        }
+    }
+
+    private async Task SendMatchEmail(Mecz mecz, List<string> sedziowieEmails)
+    {
+        string subject = $"Nowy mecz: {mecz.NumerMeczu}";
+        string body = $"Data: {mecz.Data}\nLokalizacja: {mecz.Gospodarz} vs {mecz.Gosc}\nRozgrywki ID: {mecz.RozgrywkiId}";
+
+        foreach (var email in sedziowieEmails)
+        {
+            await _emailService.SendEmailAsync(email, subject, body);
+        }
+    }
+
+public List<object> GetSedziowieByDate(DateTime date)
         {
             return _context.Sedziowie
                 .Select(s => new
@@ -49,6 +99,7 @@ namespace Sedziowanie.Services
                 .Include(m => m.SedziaI)
                 .Include(m => m.SedziaII)
                 .Include(m => m.SedziaSekretarz)
+                .OrderBy(m => m.Data)
                 .ToList();
         }
 
@@ -62,12 +113,7 @@ namespace Sedziowanie.Services
                 .FirstOrDefault(m => m.Id == id);
         }
 
-        public void AddMecz(Mecz mecz)
-        {
-            _context.Mecze.Add(mecz);
-            _context.SaveChanges();
-        }
-
+      
         public void UpdateMecz(Mecz mecz)
         {
             _context.Mecze.Update(mecz);
@@ -83,5 +129,9 @@ namespace Sedziowanie.Services
                 _context.SaveChanges();
             }
         }
-    }
+
+    
+
+   
 }
+

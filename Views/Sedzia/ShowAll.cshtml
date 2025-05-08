@@ -3,30 +3,11 @@
 @{
     ViewData["Title"] = "Lista Sędziów";
 }
-<style>
-    body {
-        background-image: url('/sedzia.jpg'); 
-        background-size: cover; 
-        background-repeat: no-repeat;
-        background-attachment: fixed; 
-        font-family: Arial, sans-serif;
-    }
-
-    h2 {
-        color: #fff;
-    }
-
-    table {
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
 
 <h2>Lista Sędziów</h2>
 
-<table class="table">
-    <thead>
+<table class="table table-bordered text-center">
+    <thead class="thead-softgray">
         <tr>
             <th>Imię</th>
             <th>Nazwisko</th>
@@ -46,11 +27,18 @@
                 <td>@sedzia.Telefon</td>
                 <td>@sedzia.Email</td>
                 <td>
-                    <a asp-action="MeczeSedziego" asp-route-sedziaId="@sedzia.Id" class="btn btn-primary">Zobacz Mecze</a>
-                    <a asp-action="Edit" asp-route-id="@sedzia.Id" class="btn btn-warning">Edytuj</a>
-                    <a asp-action="Delete" asp-route-id="@sedzia.Id" class="btn btn-danger">Usuń</a>
-                </td>
+                    <a asp-action="MeczeSedziego" asp-route-sedziaId="@sedzia.Id" class="btn btn-sm custom-btn btn-outline-secondary">
+                        <i class="fas fa-list"></i> Zobacz Mecze
+                    </a>
 
+                    <a asp-action="Edit" asp-route-id="@sedzia.Id" class="btn btn-sm custom-btn btn-outline-primary">
+                        <i class="fas fa-pen"></i> Edytuj
+                    </a>
+
+                    <a asp-action="Delete" asp-route-id="@sedzia.Id" class="btn btn-sm custom-btn" style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb;">
+                        <i class="fas fa-trash"></i> Usuń
+                    </a>
+                </td>
             </tr>
         }
     </tbody>

@@ -61,3 +61,5 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\sedzia.jpg
 wwwroot\tlo.jpg
+wwwroot\tlo1.jpg
+wwwroot\tlo2.jpg

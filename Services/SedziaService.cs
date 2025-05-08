@@ -58,15 +58,18 @@ namespace Sedziowanie.Services
                 .Where(m => m.SedziaIId == sedziaId || m.SedziaIIId == sedziaId || m.SedziaSekretarzId == sedziaId)
                 .Select(m => new
                 {
+                    
+                    m.Id,
                     m.NumerMeczu,
                     m.Data,
                     m.Gospodarz,
                     m.Gosc,
                     Rozgrywki = m.Rozgrywki.Nazwa,
-                    SedziaI = m.SedziaI.Imie + " " + m.SedziaI.Nazwisko,
-                    SedziaII = m.SedziaII.Imie + " " + m.SedziaII.Nazwisko,
-                    SedziaSekretarz = m.SedziaSekretarz.Imie + " " + m.SedziaSekretarz.Nazwisko
+                    m.SedziaI,
+                    m.SedziaII,
+                    m.SedziaSekretarz
                 })
+                .OrderBy(m=>m.Data)
                 .ToList<object>();
         }
 

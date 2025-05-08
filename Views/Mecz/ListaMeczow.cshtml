@@ -1,33 +1,10 @@
 ﻿@model IEnumerable<Sedziowanie.Models.Mecz>
 
-@{
-    ViewData["Title"] = "Lista Meczów";
-}
-
-<style>
-    body {
-        background-image: url('/tlo.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: Arial, sans-serif;
-    }
-
-    h2 {
-        color: #fff;
-    }
-
-    table {
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
 
 <h2>Lista Meczów</h2>
 
-<table class="table">
-    <thead>
+<table class="table table-bordered text-center">
+    <thead class="thead-softgray">
         <tr>
             <th>Numer Meczu</th>
             <th>Data</th>
@@ -49,9 +26,18 @@
                 <td>@mecz.Rozgrywki?.Nazwa</td>
                 <td>@mecz.Gospodarz</td>
                 <td>@mecz.Gosc</td>
-                <td>@mecz.SedziaI?.Imie @mecz.SedziaI?.Nazwisko</td>
-                <td>@mecz.SedziaII?.Imie @mecz.SedziaII?.Nazwisko</td>
-                <td>@mecz.SedziaSekretarz?.Imie @mecz.SedziaSekretarz?.Nazwisko</td>
+                <td>
+                    @mecz.SedziaI?.Imie<br />
+                    @mecz.SedziaI?.Nazwisko
+                </td>
+                <td>
+                    @mecz.SedziaII?.Imie<br />
+                    @mecz.SedziaII?.Nazwisko
+                </td>
+                <td>
+                    @mecz.SedziaSekretarz?.Imie<br />
+                    @mecz.SedziaSekretarz?.Nazwisko
+                </td>
                
 
             </tr>

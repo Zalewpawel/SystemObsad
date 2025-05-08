@@ -10,7 +10,8 @@ namespace Sedziowanie.Services.Interfaces
         List<object> GetRozgrywki();
         List<Mecz> GetAllMecze();
         Mecz GetMeczById(int id);
-        void AddMecz(Mecz mecz);
+        void AddMecz(string numerMeczu, DateTime data, int rozgrywkiId, string gospodarz, string gosc,
+                    int? sedziaIId, int? sedziaIIId, int? sedziaSekretarzId);
         void UpdateMecz(Mecz mecz);
         void DeleteMecz(int id);
     }

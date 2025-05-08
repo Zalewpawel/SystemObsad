@@ -2,6 +2,10 @@
 using Sedziowanie.Models;
 using Sedziowanie.Services.Interfaces;
 using System;
+using MailKit.Net.Smtp;
+using MimeKit;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace Sedziowanie.Controllers
 {
@@ -18,28 +22,35 @@ namespace Sedziowanie.Controllers
         public IActionResult Add(DateTime? dataMeczu)
         {
             var dzisiaj = dataMeczu ?? DateTime.Now;
-            Console.WriteLine($"📅 Pobieranie sędziów dla daty: {dzisiaj}");
 
             ViewBag.Sedziowie = _meczService.GetSedziowieByDate(dzisiaj);
             ViewBag.Rozgrywki = _meczService.GetRozgrywki();
             ViewBag.DataMeczu = dzisiaj.ToString("yyyy-MM-ddTHH:mm");
 
-            return View();
+            return View(new Mecz { Data = dzisiaj });
         }
 
-      
+
+
         [HttpPost]
         public IActionResult Add(string numerMeczu, DateTime data, int rozgrywkiId, string gospodarz, string gosc,
-                                 int? sedziaIId, int? sedziaIIId, int? sedziaSekretarzId)
+                          int? sedziaIId, int? sedziaIIId, int? sedziaSekretarzId)
         {
-            if (data < DateTime.Now)
+            
+          
+
+            if (rozgrywkiId == 0)
             {
-                ModelState.AddModelError("", "Data meczu nie może być wcześniejsza niż aktualna data.");
+                ModelState.AddModelError("rozgrywkiId", "Rozgrywki są wymagane.");
             }
 
+       
             if (!ModelState.IsValid)
             {
-                return RedirectToAction("Add");
+                ViewBag.Sedziowie = _meczService.GetSedziowieByDate(data);
+                ViewBag.Rozgrywki = _meczService.GetRozgrywki();
+                ViewBag.DataMeczu = data.ToString("yyyy-MM-ddTHH:mm");
+                return View();
             }
 
             var mecz = new Mecz
@@ -54,10 +65,13 @@ namespace Sedziowanie.Controllers
                 SedziaSekretarzId = sedziaSekretarzId
             };
 
-            _meczService.AddMecz(mecz);
-
+           
+            _meczService.AddMecz(numerMeczu, data, rozgrywkiId, gospodarz, gosc,
+                    sedziaIId, sedziaIIId, sedziaSekretarzId);
             return RedirectToAction("ListaMeczowAdmin");
         }
+
+
 
         public IActionResult ListaMeczowAdmin()
         {
@@ -82,6 +96,8 @@ namespace Sedziowanie.Controllers
 
             ViewBag.Sedziowie = _meczService.GetSedziowieByDate(mecz.Data);
             ViewBag.Rozgrywki = _meczService.GetRozgrywki();
+           
+
 
             return View(mecz);
         }

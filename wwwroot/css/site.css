@@ -20,3 +20,59 @@ html {
 body {
   margin-bottom: 60px;
 }
+.custom-navbar {
+    background-color: #e2e2e2;
+}
+
+    .custom-navbar .nav-link,
+    .custom-navbar .navbar-brand,
+    .custom-navbar .navbar-text {
+        color: #2f2f2f !important;
+        font-weight: 500;
+    }
+
+        .custom-navbar .nav-link:hover,
+        .custom-navbar .navbar-brand:hover {
+            color: #000 !important;
+            text-decoration: underline;
+        }
+
+    .custom-navbar .navbar-toggler {
+        border-color: #888;
+    }
+
+    .custom-navbar .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(47,47,47, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+.thead-softgray th {
+    background-color: #e2e2e2;
+    color: #2f2f2f;
+    font-weight: 600;
+    border-bottom: 2px solid #ccc;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.custom-btn {
+    width: 80px;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.btn-delete {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+    .btn-delete:hover {
+        background-color: #f1c4c9;
+        color: #721c24;
+    }
+

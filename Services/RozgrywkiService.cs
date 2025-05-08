@@ -36,14 +36,16 @@ namespace Sedziowanie.Services
                 .Where(m => m.RozgrywkiId == rozgrywkiId)
                 .Select(m => new
                 {
+                    m.Id,
                     m.NumerMeczu,
                     m.Data,
                     m.Gospodarz,
                     m.Gosc,
-                    SedziaI = m.SedziaI.Imie + " " + m.SedziaI.Nazwisko,
-                    SedziaII = m.SedziaII.Imie + " " + m.SedziaII.Nazwisko,
-                    SedziaSekretarz = m.SedziaSekretarz.Imie + " " + m.SedziaSekretarz.Nazwisko
+                    m.SedziaI,
+                    m.SedziaII,
+                    m.SedziaSekretarz
                 })
+                .OrderBy(m=>m.Data)
                 .ToList<object>();
         }
 
@@ -54,5 +56,7 @@ namespace Sedziowanie.Services
                 .Select(r => r.Nazwa)
                 .FirstOrDefault();
         }
+
+       
     }
 }

@@ -3,31 +3,12 @@
 @{
     ViewData["Title"] = "Lista Niedyspozycji";
 }
-<style>
-    body {
-        background-image: url('/sedzia.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: Arial, sans-serif;
-    }
 
-    h2 {
-        color: #fff;
-    }
+<h2>@ViewData["Title"]</h2>
 
-    table {
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
-<h2>Lista Niedyspozycji</h2>
-
-<table class="table">
-    <thead>
+<table class="table table-bordered text-center">
+    <thead class="thead-softgray">
         <tr>
-          
             <th>Imię Sędziego</th>
             <th>Nazwisko Sędziego</th>
             <th>Data Początku</th>
@@ -38,7 +19,6 @@
         @foreach (var niedyspozycja in Model)
         {
             <tr>
-                
                 <td>@niedyspozycja.Sedzia?.Imie</td>
                 <td>@niedyspozycja.Sedzia?.Nazwisko</td>
                 <td>@niedyspozycja.Poczatek.ToShortDateString()</td>

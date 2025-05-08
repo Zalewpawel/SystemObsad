@@ -5,32 +5,12 @@
     var rozgrywka = ViewBag.Rozgrywka;
 }
 
-<style>
-    body {
-        background-image: url('/tlo.jpg'); 
-        background-size: cover; 
-        background-repeat: no-repeat;
-        background-attachment: fixed; 
-        font-family: Arial, sans-serif;
-    }
-
-    h2 {
-        color: #fff;
-    }
-
-    table {
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
-
 <h2>Mecze w rozgrywkach: @rozgrywka</h2>
 
 @if (Model.Any())
 {
-    <table class="table">
-        <thead>
+    <table class="table table-bordered text-center">
+        <thead class="thead-softgray">
             <tr>
                 <th>Numer Meczu</th>
                 <th>Data</th>
@@ -49,9 +29,19 @@
                     <td>@mecz.Data.ToString("yyyy-MM-dd HH:mm")</td>
                     <td>@mecz.Gospodarz</td>
                     <td>@mecz.Gosc</td>
-                    <td>@mecz.SedziaI</td>
-                    <td>@mecz.SedziaII</td>
-                    <td>@mecz.SedziaSekretarz</td>
+                    <td>
+                        @mecz.SedziaI?.Imie<br />
+                        @mecz.SedziaI?.Nazwisko
+                    </td>
+                    <td>
+                        @mecz.SedziaII?.Imie<br />
+                        @mecz.SedziaII?.Nazwisko
+                    </td>
+                    <td>
+                        @mecz.SedziaSekretarz?.Imie<br />
+                        @mecz.SedziaSekretarz?.Nazwisko
+                    </td>
+                  
                 </tr>
             }
         </tbody>
@@ -59,5 +49,5 @@
 }
 else
 {
-    <p>Brak meczów w wybranej rozgrywce.</p>
+    <p>Brak meczów w wybranych rozgrywkach.</p>
 }

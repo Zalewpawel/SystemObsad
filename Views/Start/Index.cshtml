@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Strona startowa";
+}
+
+<style>
+    .btn-contact-mail {
+        background-color: #343a40; 
+        color: white;
+        border: none;
+    }
+
+        .btn-contact-mail:hover {
+            background-color: #495057;
+            color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+    .btn-contact-fb {
+        background-color: #3b5998; 
+        color: white;
+        border: none;
+    }
+
+        .btn-contact-fb:hover {
+            background-color: #2d4373;
+            color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+    .contact-icons i {
+        margin-right: 8px;
+    }
+</style>
+
+<div class="text-center mt-5">
+    <h1 class="display-3 mb-4">Sędziowie Podlasie</h1>
+
+    <div class="d-flex justify-content-center gap-4 contact-icons mb-5">
+        <a href="mailto:wspozps@sedziowie.podlasie.pl" class="btn btn-lg btn-contact-mail" target="_blank">
+            <i class="fas fa-envelope"></i> kontakt@sedziowiepodlasie.pl
+        </a>
+        <a href="https://www.facebook.com/podlascysedziowie" class="btn btn-lg btn-contact-fb" target="_blank">
+            <i class="fab fa-facebook"></i> Podlascy Sędziowie Siatkówki
+        </a>
+    </div>
+
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <div class="mt-5">
+            <a class="btn btn-primary btn-lg" asp-controller="Account" asp-action="Login">
+                <i class="fas fa-sign-in-alt"></i> Zaloguj się
+            </a>
+        </div>
+    }
+</div>

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Sedziowanie.Data;
 using Sedziowanie.Models;
@@ -8,7 +9,7 @@ using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+//builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddScoped<IMeczService, MeczService>();
@@ -21,6 +22,10 @@ builder.Services.AddDbContext<DBObsadyContext>(options =>
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<DBObsadyContext>()
     .AddDefaultTokenProviders();
+builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IMeczService, MeczService>();
+
+
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -71,7 +76,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Account}/{action=Login}/{id?}");
+    pattern: "{controller=Start}/{action=Index}/{id?}");
 app.MapRazorPages();
 app.Run();
 

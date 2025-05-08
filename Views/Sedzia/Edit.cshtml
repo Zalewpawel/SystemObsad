@@ -3,31 +3,13 @@
 @{
     ViewData["Title"] = "Edytuj Sędziego";
 }
-<style>
-    body {
-        background-image: url('/sedzia.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: Arial, sans-serif;
-    }
 
-    h2 {
-        color: #fff;
-    }
-
-    table {
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
 <h2>Edytuj Sędziego</h2>
 
 <form asp-action="Edit" method="post">
     <input type="hidden" id="Id" name="Id" value="@Model.Id" />
 
-    <div asp-validation-summary="All" class="text-danger"></div> <!-- Wyświetlenie błędów walidacji -->
+    <div asp-validation-summary="All" class="text-danger"></div> 
 
     <div class="form-group">
         <label for="Imie">Imię</label>

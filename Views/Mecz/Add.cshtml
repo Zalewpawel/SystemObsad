@@ -1,120 +1,125 @@
-﻿@model Mecz
+﻿@model Sedziowanie.Models.Mecz
 @using Sedziowanie.Models
 
-<style>
-    body {
-        background-image: url('/tlo.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-family: Arial, sans-serif;
-    }
 
-    h2 {
-        color: #fff;
-    }
-
-    table {
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        padding: 10px;
-    }
-</style>
 
 <h2>Dodaj Mecz</h2>
 
-<form asp-action="Add" method="get">
+<div class="form-container">
    
-    <div class="form-group d-flex">
-        <div>
-            <label for="Data">Data Meczu</label>
-            <input type="datetime-local" id="Data" name="dataMeczu" class="form-control"
-                   value="@ViewBag.DataMeczu" required />
+    <form asp-action="Add" method="get" class="mb-4">
+        <div class="form-group d-flex">
+            <div class="me-3">
+                <label for="dataMeczu">Filtruj sędziów po dacie:</label>
+                <input type="datetime-local" id="dataMeczu" name="dataMeczu" class="form-control"
+                       value="@ViewBag.DataMeczu" required />
+            </div>
+            <div style="margin-top: 30px;">
+                <button type="submit" class="btn btn-secondary">Filtruj</button>
+            </div>
         </div>
-        <div style="margin-top: 30px;">
-            <button type="submit" class="btn btn-secondary">Filtruj sędziów</button>
-        </div>
-    </div>
-</form>
-
-
-<form asp-action="Add" method="post">
-    
-    <div class="form-group">
-        <label for="NumerMeczu">Numer Meczu</label>
-        <input type="text" id="NumerMeczu" name="numerMeczu" class="form-control" required />
-    </div>
-
-    
-    <div class="form-group">
-        <label for="RozgrywkiId">Rozgrywki</label>
-        <select id="RozgrywkiId" name="rozgrywkiId" class="form-control" required>
-            <option value="">-- Wybierz Rozgrywki --</option>
-            @foreach (var rozgrywki in ViewBag.Rozgrywki)
-            {
-                <option value="@rozgrywki.Id">@rozgrywki.Nazwa</option>
-            }
-        </select>
-    </div>
-
-    
-    <div class="form-group">
-        <label for="Gospodarz">Gospodarz</label>
-        <input type="text" id="Gospodarz" name="gospodarz" class="form-control" maxlength="100" required />
-    </div>
-
-    
-    <div class="form-group">
-        <label for="Gosc">Gość</label>
-        <input type="text" id="Gosc" name="gosc" class="form-control" maxlength="100" required />
-    </div>
+    </form>
 
   
-    <div class="form-group">
-        <label for="SedziaIId">Sędzia I</label>
-        <select id="SedziaIId" name="sedziaIId" class="form-control" >
-            <option value="">-- Wybierz Sędziego --</option>
-            @foreach (var sedzia in ViewBag.Sedziowie)
-            {
-                <option value="@sedzia.Id"
-                        style="@(sedzia.CzyNiedostepny ? "color: red;" : "")"
-                        title="@(sedzia.CzyNiedostepny ? "Sędzia niedostępny" : "")">
-                    @sedzia.FullName (Klasa: @sedzia.Klasa)
-                </option>
-            }
-        </select>
-    </div>
+    <form asp-action="Add" method="post">
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
 
-    <div class="form-group">
-        <label for="SedziaIIId">Sędzia II</label>
-        <select id="SedziaIIId" name="sedziaIIId" class="form-control" >
-            <option value="">-- Wybierz Sędziego --</option>
-            @foreach (var sedzia in ViewBag.Sedziowie)
-            {
-                <option value="@sedzia.Id"
-                        style="@(sedzia.CzyNiedostepny ? "color: red;" : "")"
-                        title="@(sedzia.CzyNiedostepny ? "Sędzia niedostępny" : "")">
-                    @sedzia.FullName (Klasa: @sedzia.Klasa)
-                </option>
-            }
-        </select>
-    </div>
+        <div class="form-group">
+            <label asp-for="NumerMeczu"></label>
+            <input asp-for="NumerMeczu" class="form-control" />
+        </div>
 
-    <div class="form-group">
-        <label for="SedziaSekretarzId">Sędzia Sekretarz</label>
-        <select id="SedziaSekretarzId" name="sedziaSekretarzId" class="form-control" >
-            <option value="">-- Wybierz Sędziego --</option>
-            @foreach (var sedzia in ViewBag.Sedziowie)
-            {
-                <option value="@sedzia.Id"
-                        style="@(sedzia.CzyNiedostepny ? "color: red;" : "")"
-                        title="@(sedzia.CzyNiedostepny ? "Sędzia niedostępny" : "")">
-                    @sedzia.FullName (Klasa: @sedzia.Klasa)
-                </option>
-            }
-        </select>
-    </div>
+        <div class="form-group">
+            <label asp-for="Data">Data meczu</label>
+            <input asp-for="Data" type="datetime-local" class="form-control" />
+        </div>
 
-  
-    <button type="submit" class="btn btn-primary">Dodaj Mecz</button>
-</form>
+
+
+        <div class="form-group">
+            <label asp-for="Gospodarz"></label>
+            <input asp-for="Gospodarz" class="form-control" maxlength="100" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Gosc">Gość</label>
+            <input asp-for="Gosc" class="form-control" maxlength="100" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="RozgrywkiId">Rozgrywki</label>
+            <select asp-for="RozgrywkiId" class="form-control">
+                <option value="">-- Wybierz Rozgrywki --</option>
+                @foreach (var rozgrywki in ViewBag.Rozgrywki)
+                {
+                    <option value="@rozgrywki.Id" selected="@(Model.RozgrywkiId == rozgrywki.Id)">
+                        @rozgrywki.Nazwa
+                    </option>
+                }
+            </select>
+            <span asp-validation-for="RozgrywkiId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SedziaIId">Sędzia I</label>
+            <select asp-for="SedziaIId" class="form-control">
+                <option value="">-- Wybierz --</option>
+                @foreach (var sedzia in ViewBag.Sedziowie)
+                {
+                    <option value="@sedzia.Id" selected="@(Model.SedziaIId == sedzia.Id)"
+                            style="@(sedzia.CzyNiedostepny ? "color: red;" : "")"
+                            title="@(sedzia.CzyNiedostepny ? "Niedostępny" : "")">
+                        @sedzia.FullName (Klasa: @sedzia.Klasa)
+                    </option>
+                }
+            </select>
+            <span asp-validation-for="SedziaIId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SedziaIIId">Sędzia II</label>
+            <select asp-for="SedziaIIId" class="form-control">
+                <option value="">-- Wybierz --</option>
+                @foreach (var sedzia in ViewBag.Sedziowie)
+                {
+                    <option value="@sedzia.Id" selected="@(Model.SedziaIIId == sedzia.Id)"
+                            style="@(sedzia.CzyNiedostepny ? "color: red;" : "")"
+                            title="@(sedzia.CzyNiedostepny ? "Niedostępny" : "")">
+                        @sedzia.FullName (Klasa: @sedzia.Klasa)
+                    </option>
+                }
+            </select>
+            <span asp-validation-for="SedziaIIId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SedziaSekretarzId">Sędzia Sekretarz</label>
+            <select asp-for="SedziaSekretarzId" class="form-control">
+                <option value="">-- Wybierz --</option>
+                @foreach (var sedzia in ViewBag.Sedziowie)
+                {
+                    <option value="@sedzia.Id" selected="@(Model.SedziaSekretarzId == sedzia.Id)"
+                            style="@(sedzia.CzyNiedostepny ? "color: red;" : "")"
+                            title="@(sedzia.CzyNiedostepny ? "Niedostępny" : "")">
+                        @sedzia.FullName (Klasa: @sedzia.Klasa)
+                    </option>
+                }
+            </select>
+            <span asp-validation-for="SedziaSekretarzId" class="text-danger"></span>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary mt-3">Dodaj Mecz</button>
+    </form>
+</div>
+

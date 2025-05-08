@@ -72,9 +72,6 @@ namespace Sedziowanie.Services
             _context.SaveChanges();
         }
 
-        List<object> INiedyspozycjaService.GetSedziowieList()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

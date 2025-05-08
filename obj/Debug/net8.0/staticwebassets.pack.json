@@ -257,6 +257,14 @@
       "PackagePath": "staticwebassets\\tlo.jpg"
     },
     {
+      "Id": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\wwwroot\\tlo1.jpg",
+      "PackagePath": "staticwebassets\\tlo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\wwwroot\\tlo2.jpg",
+      "PackagePath": "staticwebassets\\tlo2.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Sedziowanie.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

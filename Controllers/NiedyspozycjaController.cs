@@ -31,10 +31,7 @@ namespace Sedziowanie.Controllers
             var user = await _userManager.GetUserAsync(User);
             var sedzia = _niedyspozycjaService.GetSedziaByUserId(user.Id);
 
-          /*  if (sedzia == null)
-            {
-                return RedirectToAction("Show"); 
-            }*/
+         
 
             ViewBag.SedziaId = sedzia.Id;
             return View();
@@ -59,8 +56,8 @@ namespace Sedziowanie.Controllers
         [HttpGet]
         public IActionResult AddForAdmin()
         {
-            ViewBag.Sedziowie = new SelectList(_niedyspozycjaService.GetSedziowieList(), "Id", "FullName");
-            return View();
+            ViewBag.Sedziowie = _niedyspozycjaService.GetSedziowieList();
+            return View("AddForAdmin");
         }
 
         [HttpPost]
@@ -74,6 +71,7 @@ namespace Sedziowanie.Controllers
             catch (ArgumentException ex)
             {
                 ModelState.AddModelError("", ex.Message);
+               // ViewBag.Sedziowie = new SelectList(_niedyspozycjaService.GetSedziowieList(), "Id", "FullName");
                 return View();
             }
         }

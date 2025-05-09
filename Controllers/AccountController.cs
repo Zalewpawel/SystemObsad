@@ -24,14 +24,6 @@ namespace Sedziowanie.Controllers
         }
 
 
-        private void AddErrors(IdentityResult result)
-        {
-            foreach (var error in result.Errors)
-            {
-                ModelState.AddModelError("", error.Description);
-            }
-        }
-
         [HttpGet]
         public IActionResult Register()
         {
@@ -95,13 +87,17 @@ namespace Sedziowanie.Controllers
             if (ModelState.IsValid)
             {
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
-
-                if (result.Succeeded)
+                if (!result.Succeeded)
+                {
+                    ViewData["LoginError"] = "Nieprawidłowy email lub hasło.";
+                    return View(model);
+                }
+                else
                 {
                     return RedirectToAction("ShowSedzia", "Sedzia");
                 }
 
-                ModelState.AddModelError("", "Nieprawidłowy login lub hasło.");
+               
             }
 
             return View(model);

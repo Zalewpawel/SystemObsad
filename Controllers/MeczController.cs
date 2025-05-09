@@ -96,23 +96,60 @@ namespace Sedziowanie.Controllers
 
             ViewBag.Sedziowie = _meczService.GetSedziowieByDate(mecz.Data);
             ViewBag.Rozgrywki = _meczService.GetRozgrywki();
-           
-
+            ViewBag.DataMeczu = mecz.Data.ToString("yyyy-MM-ddTHH:mm");
 
             return View(mecz);
         }
 
         [HttpPost]
-        public IActionResult Edit(Mecz mecz)
+        public IActionResult Edit(int id, string numerMeczu, DateTime data, int rozgrywkiId, string gospodarz, string gosc,
+                                  int? sedziaIId, int? sedziaIIId, int? sedziaSekretarzId)
         {
-            if (!ModelState.IsValid)
+            if (rozgrywkiId == 0)
             {
-                return View(mecz);
+                ModelState.AddModelError("rozgrywkiId", "Rozgrywki są wymagane.");
             }
 
-            _meczService.UpdateMecz(mecz);
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Sedziowie = _meczService.GetSedziowieByDate(data);
+                ViewBag.Rozgrywki = _meczService.GetRozgrywki();
+                ViewBag.DataMeczu = data.ToString("yyyy-MM-ddTHH:mm");
+
+               
+                var meczWithErrors = new Mecz
+                {
+                    Id = id,
+                    NumerMeczu = numerMeczu,
+                    Data = data,
+                    Gospodarz = gospodarz,
+                    Gosc = gosc,
+                    RozgrywkiId = rozgrywkiId,
+                    SedziaIId = sedziaIId,
+                    SedziaIIId = sedziaIIId,
+                    SedziaSekretarzId = sedziaSekretarzId
+                };
+
+                return View(meczWithErrors);
+            }
+
+            var updatedMecz = new Mecz
+            {
+                Id = id,
+                NumerMeczu = numerMeczu,
+                Data = data,
+                Gospodarz = gospodarz,
+                Gosc = gosc,
+                RozgrywkiId = rozgrywkiId,
+                SedziaIId = sedziaIId,
+                SedziaIIId = sedziaIIId,
+                SedziaSekretarzId = sedziaSekretarzId
+            };
+
+            _meczService.UpdateMecz(updatedMecz);
             return RedirectToAction("ListaMeczowAdmin");
         }
+
 
         [HttpGet]
         public IActionResult Delete(int id)

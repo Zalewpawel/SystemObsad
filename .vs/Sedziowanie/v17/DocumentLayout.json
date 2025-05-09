@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\services\\meczservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:services\\meczservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\meczcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\meczcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\obj\\Debug\\net8.0\\Sedziowanie.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\Sedziowanie.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\sedzia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\start\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\start\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\services\\meczservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:services\\meczservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\services\\interfaces\\imeczservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\shared\\_btneditpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\shared\\_btneditpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\meczcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\meczcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\mecz\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -195,10 +203,6 @@
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:data\\dbobsadycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -237,10 +241,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\migrations\\20241116105707_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:migrations\\20241116105707_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8E5F68C-411A-4107-9BE1-916AF124DECD}|Sedziowanie.csproj|c:\\users\\zalew\\onedrive\\pulpit\\sedziowanie\\m.sedziai)||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -308,7 +308,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -316,56 +316,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Sedziowanie.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\obj\\Debug\\net8.0\\Sedziowanie.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\Sedziowanie.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\obj\\Debug\\net8.0\\Sedziowanie.AssemblyInfo.cs*",
-              "RelativeToolTip": "obj\\Debug\\net8.0\\Sedziowanie.AssemblyInfo.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\obj\\Debug\\net8.0\\Sedziowanie.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\Sedziowanie.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T10:14:43.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Start\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Start\\Index.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Start\\Index.cshtml",
-              "RelativeToolTip": "Views\\Start\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T23:13:59.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAEoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T15:40:37.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T11:09:38.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IMeczService.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\IMeczService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IMeczService.cs",
@@ -377,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Services\\EmailService.cs",
@@ -389,19 +353,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MeczService.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\MeczService.cs",
               "RelativeDocumentMoniker": "Services\\MeczService.cs",
               "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\MeczService.cs",
               "RelativeToolTip": "Services\\MeczService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACcAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T11:20:25.49Z"
+              "WhenOpened": "2025-04-08T11:20:25.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T09:26:38.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T16:27:59.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeczController.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\MeczController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MeczController.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\MeczController.cs",
+              "RelativeToolTip": "Controllers\\MeczController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAHYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:08:33.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T11:09:38.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAEoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T15:40:37.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Start\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Start\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Start\\Index.cshtml",
+              "RelativeToolTip": "Views\\Start\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T23:13:59.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RozgrywkiService.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\RozgrywkiService.cs",
               "RelativeDocumentMoniker": "Services\\RozgrywkiService.cs",
@@ -413,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Sedzia\\Delete.cshtml",
@@ -426,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -438,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "StartController.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\StartController.cs",
               "RelativeDocumentMoniker": "Controllers\\StartController.cs",
@@ -450,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "ListaRozgrywek.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\ListaRozgrywek.cshtml",
               "RelativeDocumentMoniker": "Views\\Rozgrywki\\ListaRozgrywek.cshtml",
@@ -462,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ShowBezDanych.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\ShowBezDanych.cshtml",
               "RelativeDocumentMoniker": "Views\\Sedzia\\ShowBezDanych.cshtml",
@@ -474,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "MeczeSedziego.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\MeczeSedziego.cshtml",
               "RelativeDocumentMoniker": "Views\\Sedzia\\MeczeSedziego.cshtml",
@@ -486,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "MeczeRozgrywek.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\MeczeRozgrywek.cshtml",
               "RelativeDocumentMoniker": "Views\\Rozgrywki\\MeczeRozgrywek.cshtml",
@@ -498,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ListaMeczow.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\ListaMeczow.cshtml",
               "RelativeDocumentMoniker": "Views\\Mecz\\ListaMeczow.cshtml",
@@ -510,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ListaMeczowAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\ListaMeczowAdmin.cshtml",
               "RelativeDocumentMoniker": "Views\\Mecz\\ListaMeczowAdmin.cshtml",
@@ -522,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "ShowSedzia.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\ShowSedzia.cshtml",
               "RelativeDocumentMoniker": "Views\\Sedzia\\ShowSedzia.cshtml",
@@ -534,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ShowAll.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\ShowAll.cshtml",
               "RelativeDocumentMoniker": "Views\\Sedzia\\ShowAll.cshtml",
@@ -546,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Show.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\Show.cshtml",
               "RelativeDocumentMoniker": "Views\\Niedyspozycja\\Show.cshtml",
@@ -558,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "ShowUsers.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Admin\\ShowUsers.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\ShowUsers.cshtml",
@@ -570,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -582,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Admin\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Edit.cshtml",
@@ -594,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "_BtnDeletePartial.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Shared\\_BtnDeletePartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_BtnDeletePartial.cshtml",
@@ -606,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "AddForSedzia.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\AddForSedzia.cshtml",
               "RelativeDocumentMoniker": "Views\\Niedyspozycja\\AddForSedzia.cshtml",
@@ -618,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "_BtnEditPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Shared\\_BtnEditPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_BtnEditPartial.cshtml",
@@ -630,19 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MeczController.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\MeczController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MeczController.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\MeczController.cs",
-              "RelativeToolTip": "Controllers\\MeczController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAAGIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:08:33.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Mecz.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Mecz.cs",
               "RelativeDocumentMoniker": "Models\\Mecz.cs",
@@ -654,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Mecz\\Add.cshtml",
@@ -666,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Mecz\\Edit.cshtml",
@@ -678,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "SedziaService.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\SedziaService.cs",
               "RelativeDocumentMoniker": "Services\\SedziaService.cs",
@@ -690,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "RozgrywkiController.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\RozgrywkiController.cs",
               "RelativeDocumentMoniker": "Controllers\\RozgrywkiController.cs",
@@ -702,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Mecz\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Mecz\\Delete.cshtml",
@@ -714,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "INiedyspozycjaService.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\INiedyspozycjaService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\INiedyspozycjaService.cs",
@@ -726,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Data\\SeedData.cs",
@@ -738,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "IRozgrywkiService.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\Interfaces\\IRozgrywkiService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IRozgrywkiService.cs",
@@ -750,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
@@ -762,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Rozgrywki.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Rozgrywki.cs",
               "RelativeDocumentMoniker": "Models\\Rozgrywki.cs",
@@ -774,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "NiedyspozycjaService.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Services\\NiedyspozycjaService.cs",
               "RelativeDocumentMoniker": "Services\\NiedyspozycjaService.cs",
@@ -786,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "AddForAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Niedyspozycja\\AddForAdmin.cshtml",
               "RelativeDocumentMoniker": "Views\\Niedyspozycja\\AddForAdmin.cshtml",
@@ -798,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -810,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "NiedyspozycjaController.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\NiedyspozycjaController.cs",
               "RelativeDocumentMoniker": "Controllers\\NiedyspozycjaController.cs",
@@ -822,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Rozgrywki\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Rozgrywki\\Add.cshtml",
@@ -834,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -846,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Sedzia\\Add.cshtml",
@@ -858,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Sedzia\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Sedzia\\Edit.cshtml",
@@ -870,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "SedziaController.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\SedziaController.cs",
               "RelativeDocumentMoniker": "Controllers\\SedziaController.cs",
@@ -882,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "DBObsadyContext.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Data\\DBObsadyContext.cs",
               "RelativeDocumentMoniker": "Data\\DBObsadyContext.cs",
@@ -894,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -906,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
@@ -918,19 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAEEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T16:27:59.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -942,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "UserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\ViewModels\\UserViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\UserViewModel.cs",
@@ -954,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Sedzia.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\Sedzia.cs",
               "RelativeDocumentMoniker": "Models\\Sedzia.cs",
@@ -966,7 +982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "EditUserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\ViewModels\\EditUserViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\EditUserViewModel.cs",
@@ -978,7 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
@@ -990,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -1002,7 +1018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "20241116105707_Init.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Migrations\\20241116105707_Init.cs",
               "RelativeDocumentMoniker": "Migrations\\20241116105707_Init.cs",
@@ -1014,7 +1030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "20241116105707_Init.Designer.cs",
               "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Migrations\\20241116105707_Init.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20241116105707_Init.Designer.cs",
@@ -1035,18 +1051,6 @@
               "ViewState": "AgIAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T11:54:49.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\zalew\\OneDrive\\Pulpit\\Sedziowanie\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T09:26:38.537Z"
             },
             {
               "$type": "Document",
